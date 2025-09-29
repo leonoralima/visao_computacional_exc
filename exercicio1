@@ -1,4 +1,4 @@
-`import cv2  
+import cv2   # type: ignore
 
 # Carregar imagem:
 img = cv2.imread("imgexemplo.jpg")
@@ -8,4 +8,4 @@ cv2.imshow("Minha Imagem", img)
 
 # Espera até pressionar uma tecla:
 cv2.waitKey(0)
-cv2.destroyAllWindows()`
+cv2.destroyAllWindows()
