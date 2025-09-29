@@ -1,4 +1,4 @@
-import cv2   # type: ignore
+import cv2  
 
 # Carregar imagem:
 img = cv2.imread("imgexemplo.jpg")
